@@ -117,7 +117,7 @@ add_action(
  */
 function rtgodam_action_links( $links, $file ) {
     // Return normal links if not plugin.
-    if ( plugin_basename( 'godam/godam.php' ) !== $file ) {
+    if ( plugin_basename( 'c1video/godam.php' ) !== $file ) {
         return $links;
     }
 
